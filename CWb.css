@@ -1,0 +1,235 @@
+
+body {
+	max-width: 1500px;
+	max-height: 900px;
+	margin: 0;
+	padding: 0;
+	font-family: Helvetica, sans-serif;
+}
+
+header{
+	padding-top: 0.5ex;
+	padding-left: 1%;
+	height: 5ex;
+	font-size: 150%;
+	font-weight: bold;
+	border: 4px solid purple;
+}  
+
+#subheading {
+	font-size: 65%;
+	font-weight: normal;
+}
+	 
+.multimenu > div {				
+	padding: 1px;				
+	border: 2px solid purple;	
+}
+
+.multimenu {						
+	display: grid;					
+	grid-template-columns: 7fr 1fr;	 
+   	
+}
+
+li.tabLabel {
+	list-style-type:none; 
+	display: inline-block; 
+	border: 2px solid purple; 
+	min-width:4em; 
+	min-height:2ex; 
+  	padding:0.3em; 
+  	border-top-right-radius: 4px;
+  	border-top-left-radius: 4px;
+  	border-bottom-right-radius: 4px;
+  	border-bottom-left-radius: 4px;
+  	text-align: center;
+  	font-family: Helvetica, sans-serif; 
+  	font-weight:bold;
+	color: red;
+}
+
+li.tabLabel2 {
+	list-style-type:none; 
+	display: inline-block; 
+	border: 2px solid purple; 
+	min-width:4em; 
+	min-height:2ex; 
+  	padding:0.3em; 
+  	border-top-right-radius: 4px;
+  	border-top-left-radius: 4px;
+  	border-bottom-right-radius: 4px;
+  	border-bottom-left-radius: 4px;
+  	text-align: center;
+  	font-family: Helvetica, sans-serif; 
+  	font-weight:bold;
+	color: red;
+} 
+
+#displayarea2 {
+	display: grid;
+	padding-left: 1px;
+	max-width: 100%;
+	border: 2px solid purple;
+	overflow: scroll;
+}
+
+#displayarea3 {
+	display: grid;
+	padding-left: 1px;
+	max-width: 100%;
+	border: 2px solid purple;
+	overflow: scroll;
+}
+
+.container3 > div {
+
+}
+.container3 {
+	display: grid;
+	padding-left: 1px;
+	grid-template-columns: repeat(3, 1fr);	
+	border: 1px solid purple;
+}
+
+.container5 > div {
+
+}
+.container5 {
+	display: grid;
+	padding-left: 1px;
+	grid-template-columns: repeat(2, 1fr);	
+	border: 1px solid purple;
+}
+
+.container8 > div {
+
+}
+.container8 {
+	display: grid;
+	padding-left: 1px;
+	grid-template-columns: repeat(1, 1fr);	
+	border: 1px solid purple;
+}
+
+#displayarea {
+	padding: 1px;
+	border: 2px solid purple;
+}
+
+#displayarea2 {
+	padding: 1px;
+	border: 2px solid purple;
+}
+
+#displayarea3 {
+	padding: 1px;
+	border: 2px solid purple;
+}
+
+#chartbox{
+	max-height: 100%;
+}
+
+#chartbox2{
+	max-height: 100%;
+	overflow: scroll;
+	background-color: yellow;
+}
+
+#chartbox3{
+	max-height: 100%;
+	overflow: scroll;
+}
+
+#menubox {
+	min-width: 225px;
+	max-width: 20%;
+	font-size: 75%;
+	padding: 0.75em;
+}
+
+#menubox2 {
+	max-height: 900px;
+	overflow: scroll;
+	border: 1px solid lime;
+	font-size: 80%;
+}
+
+#menubox3 {
+	max-height: 900px;
+	overflow: scroll;
+	border: 1px solid lime;
+	font-size: 80%;
+}
+
+#menubox ul {
+	 list-style-type: none;
+	 padding-left: 0.5em;
+}
+
+#menuListSelect{
+	color: darkblue;
+	font-weight: bold;
+}
+
+#sliderbox {
+	position:relative; 
+	height: 2em; 
+	left: 10%; 
+	bottom: 5%; 
+	width:65%; 
+	border:1px solid pink; 
+	margin-top: 1ex;
+	margin-bottom: 3ex
+}
+
+#sliderStartVal{
+	position:absolute; 
+	width: 2em; 
+	height: 2em; 
+	line-height: 2em; 
+	left: 2em; 
+	text-align: center; 
+
+}
+#sliderEndVal{
+	position:absolute; 
+	width: 2em; 
+	height: 2em; 
+	line-height: 2em; 
+	right: 0.2em; 
+	text-align: center; 
+}
+
+#slider {
+	position:absolute; 
+	height: 1.5em; 
+	left: 10%; 
+	bottom: 5%; 
+	width:77%; 
+}
+#custom-handle {
+	width: 3em; 
+	vertical-align: middle; 
+	text-align: center; 
+}
+
+#runSeries {
+	position: absolute; 
+	left: 0; 
+	font-weight:bold; 
+	font-size: large
+}
+
+#tabs .tabLabel a {
+		color: black;
+	}
+
+#tabs .tabLabel.ui-tabs-active a {
+	color: blue;
+}
+
+#tabs .tabLabel2 a {
+		color: red;
+	}
